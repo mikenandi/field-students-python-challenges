@@ -15,7 +15,7 @@ def compute_sequence(n):
     - int: The value at the n-th position
     """
 
-    # Base case: return 0 if n is 0
+    # Base case: return 0 if n is 0  ()
     if n == 0:
         return 0
 
@@ -27,7 +27,7 @@ def compute_sequence(n):
     return compute_sequence(n - 1) + compute_sequence(n - 2)
 
 
-#  Sample usage for testing
+#  Sample usage for testing and shows its outputs
 print(compute_sequence(0))  # Output: 0
 print(compute_sequence(1))  # Output: 1
 print(compute_sequence(6))  # Output: 8
